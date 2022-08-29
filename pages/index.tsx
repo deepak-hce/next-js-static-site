@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Header from "../components/Header/Header.component";
 import Footer from "../components/Footer/Footer.component";
+import Silder from "./slider";
 
 const Home: NextPage = () => {
   return (
@@ -20,9 +21,7 @@ const Home: NextPage = () => {
       </header>
 
       <main className={styles.main}>
-        <Link href="/about">
-          <a>this page!</a>
-        </Link>
+        <Silder></Silder>
       </main>
 
       <footer className={styles.footer}>
